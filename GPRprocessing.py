@@ -19,7 +19,7 @@ design_space = "geometry"
 if design_space=="geometry":
     features = ["DmotiveOut", "Dmix", "Lmix", "alphadiff", "DdiffOut"]
     # Read data into dataframe
-    df = pd.read_csv('Database_200pnt_reducedrange_proper.csv')
+    df = pd.read_csv('Database_Design_200pnt.csv')
     
 else:
     features = ["Pm", "Plift", "hm", "hs"]
